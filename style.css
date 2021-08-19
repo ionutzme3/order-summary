@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Red Hat Display" ;
+}
+body {
+    background: url("./images/pattern-background-desktop.svg");
+}
+
+.container {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 102px;
+    background: #fff;
+    box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+}
+.img-summary img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+.order-wrapper {
+    padding: 48px;
+}
+
+h1 {
+    line-height: 37px;
+    font-size: 28px;
+    font-weight: 900;
+}
+p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717fa6;
+    margin: 17px 20px;
+}
+.order-info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 11px;
+    background: #f7f9ff;
+    padding: 25px 24px;
+    margin-top: 25px;
+    margin-bottom: 32px;
+    /* margin: 20px 32px; */
+    gap: 20px;
+}
+.order-text h2, 
+.order-text p {
+    text-align: left;
+}
+
+.order-text h2 {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1f2e55;
+}
+.order-text p {
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717fa6;
+    margin: 0;
+}
+.order-info a {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #382ae1;
+    font-family: "Red Hat Display";
+}
+.order-info a:hover {
+    color: #766cf1;
+}
+button {
+    width: 100%;
+    border: 1px solid #382ae1;
+    background: #382ae1;
+    border-radius: 11px;
+    box-shadow: 0 20px 28px rgba(56, 42, 225, 0.190291);
+    color: #fff;
+    line-height: 20px;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: "Red Hat Display";
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 32px;
+   cursor: pointer;
+}
+button:hover {
+    border: 1px solid #766cf1;
+    background: #766cf1;
+}
+.cancel {
+    font-weight: 900;
+    font-size: 15px;
+    color: #717fa6;
+}
+.cancel:hover {
+    color: #1f2e55;
+    cursor: pointer;
+}
